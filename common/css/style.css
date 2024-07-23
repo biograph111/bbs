@@ -1,0 +1,85 @@
+@charset "uft8";
+/* 共通 */
+a {
+    color: #000;
+    font-family: "Zen Kurenaido", Serif;
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
+/* ヘッダー */
+.nav_wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.nav_list {
+    display: flex;
+    align-items: center;
+}
+
+.nav_link {
+    margin: 0 10px 0 10px;
+    color: #000;
+    font-size: 1rem;
+    font-family: "Zen Kurenaido", Serif;
+}
+.nav_link_wrapper {
+    display: flex;
+}
+
+/* メイン */
+.main {
+    padding-top: 120px;
+    box-sizing: border-box;
+}
+
+.main_title {
+    position: relative;
+    z-index: 20;
+    margin-bottom: 12%;
+    font-size: 3rem;
+    font-family: "Zen Kurenaido", Serif;
+    text-align: center;
+}
+
+.main_text {
+    position: relative;
+    z-index: 20;
+    font-weight: bold;
+    font-size: 4rem;
+    font-family: "Delicious Handrawn", sans-serif;
+    text-align: center;
+}
+
+.back_ground {
+    position: absolute;
+    z-index: 10;
+    width: 40vw;
+    height: 40vh;
+    margin: auto;
+    background-color: aqua;
+
+    inset: 0;
+}
+
+.link_text {
+    margin-bottom: 100px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.image {
+    width: 20vw;
+}
+/* フッター */
+.footer {
+    display: flex;
+    justify-content: center;
+}
